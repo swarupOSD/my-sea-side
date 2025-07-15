@@ -1,0 +1,32 @@
+/* ---------- Gallery Page ---------- */
+.sea-gallery{
+  padding:30px 20px;
+  text-align:center;
+  background:#0e6ba8;              /* গভীর সমুদ্ররঙ ব্যাকগ্রাউন্ড */
+}
+.sea-gallery h2{
+  font-size:1.8rem;
+  margin-bottom:20px;
+  color:#b5e6f7;
+}
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(160px,1fr));
+  gap:15px;
+}
+.gallery-grid img{
+  width:100%;
+  border-radius:12px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.3);
+  transition:transform .3s;
+}
+.gallery-grid img:hover{
+  transform:scale(1.05);
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 15px;
+  gap: 28px;
+}
